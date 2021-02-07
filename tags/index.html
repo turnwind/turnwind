@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签, YanGniY">
+    <meta name="keywords" content="标签, Yang">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签 | YanGniY</title>
+    <title>标签 | Yang</title>
     <link rel="icon" type="image/png" href="/logo.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -43,7 +43,7 @@
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">YanGniY</span>
+                    <span class="logo-span">Yang</span>
                 </a>
             </div>
             
@@ -109,7 +109,7 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">YanGniY</div>
+        <div class="logo-name">Yang</div>
         <div class="logo-desc">
             
             Never really desperate, only the lost of the soul.
@@ -184,7 +184,7 @@
         <div class="brand">
             <div class="title center-align">
                 
-                For You
+                我命
                 
             </div>
 
@@ -233,10 +233,70 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/%E6%80%BB%E7%BB%93/" title="总结: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="总结" style="background-color: #F9EBEA;">总结
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E9%9A%8F%E7%AC%94/" title="随笔: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="随笔" style="background-color: #F5EEF8;">随笔
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%B1%95%E6%9C%9B/" title="展望: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="展望" style="background-color: #D5F5E3;">展望
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/hexo/" title="hexo: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="hexo" style="background-color: #E8F8F5;">hexo
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"总结","weight":1,"link":"/tags/总结/"},{"text":"随笔","weight":3,"link":"/tags/随笔/"},{"text":"展望","weight":1,"link":"/tags/展望/"},{"text":"hexo","weight":1,"link":"/tags/hexo/"}], {
+        autoResize: true
+    });
+</script>
 
     
 
